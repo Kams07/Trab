@@ -1,0 +1,26 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css/ --recursive",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktburns214/responsive-portfolio.git"
+  },
+  "author": "Katie Burns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktburns214/responsive-portfolio/issues"
+  },
+  "homepage": "https://ktburns214.github.io/responsive-portfolio",
+  "dependencies": {
+    "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {}
+}
